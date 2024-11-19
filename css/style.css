@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  outline: none; /* this for the links and button when get visited ect*/
+}
+html {
+  font-size: 62.5%; /* this makes rem calculations much simpler */
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  color: #e8ecd7;
+  background-color: #1f4529;
+}
+
+/* This is navbar style  */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #1f4529;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+.navbar a {
+  position: relative;
+  color: #ffffff;
+  margin-left: 40px;
+  font-size: 16px;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: #ffffff;
+  transition: 0.3s;
+}
+.navbar a:hover::before {
+  width: 100%;
+}
+.navbar a:hover {
+  color: #47663b;
+}
+
+/* This is the home page style */
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e8ecd7;
+  /* gap: 8rem; */
+}
+.home .content h1 {
+  font-size: 6rem;
+  padding-right: 4rem;
+  color: #47663b;
+}
+.home .content h2 {
+  font-size: 6rem;
+  margin-bottom: 10px;
+  color: #1f4529;
+}
+span {
+  color: #eed3b1;
+}
+.home .content p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #1f4529;
+  color: #e8ecd7;
+  height: 2rem;
+  width: 50%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.home .content button {
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #eed3b1;
+  color: #47663b;
+  width: 30%;
+  height: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px #1f4529;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.home .content button:hover {
+  background-color: #47663b;
+  color: #eed3b1;
+}
+/* img style of the home page  */
+.home-img {
+  box-shadow: 0px 5px 5px #47663b;
+  right: 6rem;
+}
+.home-img {
+  position: relative;
+  width: 35vw;
+  border-radius: 50% 20% / 10% 40%;
+  box-shadow: 0px 5px 5px #47663b;
+}
+.about-page {
+    width: 70%;
+
+
+}
+.about-page h2 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #eed3b1;
+}
+.about-page p {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
