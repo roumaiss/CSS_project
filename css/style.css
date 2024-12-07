@@ -99,7 +99,7 @@ p {
   margin: 0 6rem;
   padding-bottom: 13rem;
 }
-.decore4{
+.decore4 {
   position: absolute;
   width: 7rem;
   right: 5rem;
@@ -134,7 +134,7 @@ span {
   letter-spacing: 1px;
   font-size: medium;
 }
-button  {
+button {
   border-radius: 10px;
   margin-top: 1rem;
   background-color: #eed3b1;
@@ -147,7 +147,7 @@ button  {
   box-shadow: 0 2px 7px #0000005f;
   cursor: pointer;
 }
- button:hover {
+button:hover {
   background-color: #47663b;
   color: #eed3b1;
 }
@@ -216,7 +216,7 @@ h2 {
   margin: 0 6rem;
   position: relative;
 }
-.decore3{
+.decore3 {
   position: absolute;
   z-index: -50;
   left: 31rem;
@@ -283,52 +283,53 @@ h2 {
   border: 5px solid #1f45295c;
 }
 /* this is the contact style */
-#contact{
+#contact {
   margin: 8rem 6rem;
   position: relative;
   background-color: var(--primary-color);
-  border-radius: 100px 0 0 100px ;
-  padding:1rem 1rem 10rem 1rem ;
+  border-radius: 100px 0 0 100px;
+  padding: 1rem 1rem 10rem 1rem;
 }
-.decore5{
+.decore5 {
   width: 30rem;
   aspect-ratio: 1.2;
   margin-top: 6rem;
 }
-.decore6{
+.decore6 {
   position: absolute;
   top: 2.5rem;
-  right:0;
-  transform:rotate(90deg);
+  right: 0;
+  transform: rotate(90deg);
 }
-.contact-form{
+.contact-form {
   position: absolute;
   right: 5rem;
   top: 1rem;
   width: 30rem;
 }
-.contact-form h2{
+.contact-form h2 {
   font-size: 2rem;
   margin: 1rem 0;
 }
-audio{
-  margin:1rem 0;
+audio {
+  margin: 1rem 0;
 }
-label{
-  display:block;
+label {
+  display: block;
   margin: 0.5rem 0;
-  color:var(--background-color);
+  color: var(--background-color);
   text-transform: capitalize;
   font-weight: bold;
   font-size: 1.2rem;
 }
-input,textarea{
-  width:70%;
-  background-color:var(--background-color);
+input,
+textarea {
+  width: 70%;
+  background-color: var(--background-color);
+  border-radius: 10px;
 }
-input{
+input {
   padding: 0.7rem 1rem;
-  border-radius:10px;
 }
 /* this is the footer style  */
 .footer {
